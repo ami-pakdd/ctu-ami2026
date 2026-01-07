@@ -70,7 +70,7 @@ export default function TopicsSection() {
       {/* CTA */}
       <div className="mt-10 text-center">
         <a
-          href="/cfp"
+          href="/ctu-ami2026/cfp"
           className="inline-flex items-center px-6 py-3
                      border border-ctu-blue text-ctu-blue font-semibold rounded-xl
                      hover:bg-ctu-blue hover:text-white transition-all"

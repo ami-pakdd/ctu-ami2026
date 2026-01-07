@@ -35,7 +35,7 @@ export default function Hero() {
           {/* CTA Buttons */}
           <div className="mt-10 flex flex-wrap gap-4">
             <a
-              href="/cfp"
+              href="/ctu-ami2026/cfp"
               className="px-6 py-3 bg-ctu-blue text-white font-semibold rounded-xl
                          hover:bg-ctu-cyan transition-all"
             >
@@ -43,7 +43,7 @@ export default function Hero() {
             </a>
 
             <a
-              href="/submission"
+              href="/ctu-ami2026/submission"
               className="px-6 py-3 border border-ctu-blue text-ctu-blue font-semibold rounded-xl
                          hover:bg-ctu-blue hover:text-white transition-all"
             >

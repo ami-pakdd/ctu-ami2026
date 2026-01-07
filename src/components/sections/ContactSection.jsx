@@ -34,12 +34,12 @@ export default function ContactSection() {
         <div className="mt-6 text-sm text-gray-700">
           <p>Conference Website:</p>
           <a
-            href="https://aimed.github.io/ami2026"
+            href="https://ami-pakdd.github.io/ctu-ami2026"
             target="_blank"
             rel="noopener noreferrer"
             className="text-ctu-blue hover:text-ctu-cyan"
           >
-            https://aimed.github.io/ami2026
+            https://ami-pakdd.github.io/ctu-ami2026
           </a>
         </div>
 
