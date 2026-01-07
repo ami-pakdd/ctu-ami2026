@@ -12,7 +12,7 @@ export default function ContactSection() {
         </p>
 
         <p className="text-xl font-bold text-ctu-blue">
-          Prof. Hiep Huynh
+          Prof. Hiep Xuan Huynh, Ph.D. (HDR)
         </p>
 
         <p className="text-gray-700 mb-1">

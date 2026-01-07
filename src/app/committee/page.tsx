@@ -16,7 +16,7 @@ type Member = {
 export default function CommitteePage() {
   const organizingCommittee: Member[] = [
     {
-      name: "Prof. Hiep Huynh",
+      name: "Prof. Hiep Xuan Huynh, Ph.D. (HDR)",
       role: "General Chair",
       affiliation: "Can Tho University",
       country: "Vietnam",
@@ -25,7 +25,7 @@ export default function CommitteePage() {
 
   const programChairs: Member[] = [
     {
-      name: "Prof. Hiep Huynh",
+      name: "Prof. Hiep Xuan Huynh, Ph.D. (HDR)",
       affiliation: "Can Tho University",
       country: "Vietnam",
     },

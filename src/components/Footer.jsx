@@ -41,7 +41,7 @@ export default function Footer() {
             </p>
 
             <p className="text-sm text-ctu-blue/80 leading-snug">
-              General Chair: Prof. Hiep Huynh<br />
+              General Chair: Prof. Hiep Xuan Huynh<br />
               Can Tho University<br />
               <a
                 href="mailto:hxhiep@ctu.edu.vn"
