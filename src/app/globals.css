@@ -13,6 +13,11 @@
   --color-ctu-blue: #1f5ca9;
   --color-ctu-cyan: #00afef;
 
+  --color-neutral-900: 32 36 41;
+  --overlay-dark-70: rgba(32, 36, 41, 0.7);
+  --overlay-dark-50: rgba(32, 36, 41, 0.5);
+  --overlay-dark: rgba(32, 36, 41, 0.7);
+
   --font-sans: var(--font-k2d);
   --font-display: var(--font-readex);
 }

@@ -29,13 +29,13 @@ export default function SponsorsSection() {
         logo: "VNU_IS_logo.png",
       },
     ],
-    // publisher: [
-    //   {
-    //     name: "Springer (tentative)",
-    //     url: "https://www.springer.com/",
-    //     logo: "springer.svg",
-    //   },
-    // ],
+    publisher: [
+      {
+        name: "CCIS - Springer",
+        url: "https://www.springer.com/",
+        logo: "springer-ccis.png",
+      },
+    ],
   };
 
   const renderTier = (title, items, emptyText = "To be announced") => (
@@ -59,7 +59,7 @@ export default function SponsorsSection() {
               <img
                 src={org.logo}
                 alt={org.name}
-                className="h-16 md:h-20 object-contain transition"
+                className="h-16 md:h-24 object-contain transition"
               />
             </a>
           ))}
@@ -83,11 +83,10 @@ export default function SponsorsSection() {
           supporters.academicPartners
         )}
 
-        {/* {renderTier(
-          "Publisher (Tentative)",
-          supporters.publisher,
-          "Publication details will be announced"
-        )} */}
+        {renderTier(
+          "Publisher",
+          supporters.publisher
+        )}
       </div>
     </section>
   );

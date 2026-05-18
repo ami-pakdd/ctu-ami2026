@@ -29,12 +29,30 @@ export default function SubmissionPage() {
             Submission System
           </h2>
           <p className="text-lg text-gray-800 leading-relaxed">
-            All papers must be submitted electronically through the official
-            conference submission system.
+            All papers must be submitted electronically via the official
+            Microsoft CMT submission system:
             <br />
-            <span className="italic text-gray-600">
-              The submission link will be announced soon.
-            </span>
+            <a
+              href="https://cmt3.research.microsoft.com/AMI2026"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-ctu-blue hover:text-ctu-cyan font-semibold"
+            >
+              https://cmt3.research.microsoft.com/AMI2026
+            </a>
+          </p>
+        </section>
+
+        {/* Acknowledgment */}
+        <section>
+          <h2 className="text-2xl font-bold text-ctu-blue mb-4">
+            Acknowledgment
+          </h2>
+          <p className="text-lg text-gray-800 leading-relaxed">
+            The Microsoft CMT service was used for managing the peer-reviewing
+            process for this conference. This service was provided for free by
+            Microsoft and they bore all expenses, including costs for Azure cloud
+            services as well as for software development and support.
           </p>
         </section>
 
@@ -54,7 +72,7 @@ export default function SubmissionPage() {
           </ul>
 
           <p className="mt-3 text-gray-700">
-            Page limits inclusive of references and appendices.
+            Page limits are inclusive of references and appendices.
           </p>
         </section>
 
@@ -65,13 +83,20 @@ export default function SubmissionPage() {
           </h2>
 
           <p className="text-lg text-gray-800 leading-relaxed">
-            Submissions must be written in English and prepared according to the official
-conference proceedings format.
+            Submissions must be written in English and prepared in PDF format using the
+            Springer LNCS/CCIS one-column conference proceedings style.
           </p>
 
           <p className="mt-2 text-gray-700">
-            Detailed formatting instructions and author kits will be provided once the
-submission system opens.
+            Springer conference proceedings guidelines and author instructions are available at:{' '}
+            <a
+              href="https://www.springer.com/gp/computer-science/lncs/conference-proceedings-guidelines"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-ctu-blue hover:text-ctu-cyan font-medium"
+            >
+              https://www.springer.com/gp/computer-science/lncs/conference-proceedings-guidelines
+            </a>.
           </p>
         </section>
 
@@ -119,7 +144,7 @@ submission system opens.
           </h2>
           <p className="text-lg text-gray-800 leading-relaxed">
             Accepted papers will be published in the official conference proceedings of
-AMI 2026, subject to final approval.
+            AMI 2026, subject to satisfactory peer review and compliance with Springer’s publication policies.
             <br />
             Detailed publication information will be announced after the review process.
           </p>
@@ -127,11 +152,15 @@ AMI 2026, subject to final approval.
 
         {/* CTA */}
         <section className="text-center pt-10">
-          <div className="inline-block px-8 py-3 rounded-xl bg-gray-300 text-gray-700 font-semibold cursor-not-allowed">
-            Submission System – Coming Soon
-          </div>
+          <a
+            href="https://cmt3.research.microsoft.com/AMI2026"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="inline-block px-8 py-3 rounded-xl bg-ctu-blue text-white font-semibold hover:bg-ctu-cyan transition"
+          >
+            Submit Your Paper
+          </a>
         </section>
-
       </div>
     </div>
   )

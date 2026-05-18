@@ -1,13 +1,22 @@
 export default function SubmissionSection() {
-  const SUBMISSION_LINK = null // to be announced
+  const SUBMISSION_LINK = "https://cmt3.research.microsoft.com/AMI2026"
 
   const sections = [
     {
       title: "Submission System",
       content: (
         <>
-          Paper submission will be handled through an online submission system.
-          The official submission link will be announced soon.
+          All papers must be submitted electronically via the official Microsoft CMT
+          submission system:
+          <br />
+          <a
+            href={SUBMISSION_LINK}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-ctu-blue hover:text-ctu-cyan font-semibold"
+          >
+            {SUBMISSION_LINK}
+          </a>
         </>
       ),
     },
@@ -15,10 +24,11 @@ export default function SubmissionSection() {
       title: "Paper Format",
       content: (
         <>
-          Submitted papers must be written in English and prepared according to the official conference proceedings format.
-          <br />
-          Detailed formatting instructions and author kits will be provided once the
-          submission system opens.
+          <p>
+            Submissions must be written in English and prepared using the Springer LNCS/CCIS
+            one-column conference proceedings format. Papers must be original and not under
+            review elsewhere.
+          </p>
         </>
       ),
     },
@@ -26,8 +36,10 @@ export default function SubmissionSection() {
       title: "Paper Length",
       content: (
         <>
-          Page limits will be specified in the Call for Papers.
-          All page limits will include references and appendices.
+          The proceedings will primarily consist of full papers (typically 12 to 15 pages
+          in the Springer CCIS format). A limited number of short or poster papers
+          (minimum 6 to 11 pages) may also be included.
+          All page limits include references and appendices.
         </>
       ),
     },
@@ -35,7 +47,7 @@ export default function SubmissionSection() {
       title: "Review Process",
       content: (
         <>
-          All submissions will undergo a rigorous double-blind peer review process.
+          All submissions will undergo a rigorous and competitive double-blind peer review process.
           Papers will be evaluated based on originality, technical quality, relevance,
           significance, and clarity.
         </>
@@ -45,9 +57,9 @@ export default function SubmissionSection() {
       title: "Publication",
       content: (
         <>
-          Accepted papers will be published in the official conference proceedings of AMI 2026, subject to final approval.
-          <br />
-          Further publication details will be announced in due course.
+          Accepted papers will be published in the AMI 2026 conference proceedings
+          by Springer in the Communications in Computer and Information Science (CCIS) series,
+          subject to satisfactory peer review and compliance with Springer’s publication policies.
         </>
       ),
     },
@@ -84,9 +96,14 @@ export default function SubmissionSection() {
 
         {/* CTA */}
         <div className="mt-10 text-center">
-          <span className="inline-block px-8 py-3 rounded-xl bg-gray-300 text-gray-700 font-semibold cursor-not-allowed">
-            Submission System – Coming Soon
-          </span>
+          <a
+            href={SUBMISSION_LINK}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="inline-block px-8 py-3 rounded-xl bg-ctu-blue text-white font-semibold hover:bg-ctu-cyan transition"
+          >
+            Submit Your Paper
+          </a>
         </div>
       </div>
 

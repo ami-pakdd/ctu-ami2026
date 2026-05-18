@@ -85,18 +85,18 @@ export default function CFPPage() {
             Submission and Review
           </h2>
           <p>
-            All submissions must be written in English and prepared according to the
-            official conference proceedings format.
+            AMI 2026 invites original research and application papers. Submissions must be
+            written in English and prepared using the Springer LNCS/CCIS one-column
+            conference proceedings format.
           </p>
-          <p>
-            Detailed formatting instructions and templates will be provided once the
-            submission system opens.
+          <p className="mt-2">
+            All submissions must be original and not under review or published elsewhere.
           </p>
           <p className="mt-4">
             Each submission will undergo a rigorous double-blind peer-review process.
             Every paper will be reviewed by at least three qualified reviewers and
-            evaluated based on originality, technical quality, relevance, clarity,
-            experimental validation, and potential impact.
+            evaluated based on originality, technical quality, relevance, significance,
+            and clarity.
           </p>
         </section>
 
@@ -106,9 +106,7 @@ export default function CFPPage() {
             Publication
           </h2>
           <p>
-            Accepted papers will be published in the official AMI 2026 conference
-proceedings, subject to final approval.
-            Further publication details will be announced after the review process.
+            Accepted papers will be published in the conference proceedings by Springer in the Communications in Computer and Information Science (CCIS) series, subject to satisfactory peer review and compliance with Springer’s publication policies.
           </p>
         </section>
 

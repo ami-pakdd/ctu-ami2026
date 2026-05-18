@@ -17,9 +17,9 @@ const readex = Readex_Pro({
 })
 
 export const metadata: Metadata = {
-  title: "AMI 2026 – Autonomous Machine Intelligence",
+  title: "AMI 2026 – The 1st International Conference on Autonomous Machine Intelligence",
   description:
-    "AMI 2026 is an international scientific conference on Autonomous Machine Intelligence.",
+    "The 1st International Conference on Autonomous Machine Intelligence (AMI 2026).",
 }
 
 export default function RootLayout({

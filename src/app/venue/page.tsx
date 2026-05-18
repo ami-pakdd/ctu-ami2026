@@ -39,7 +39,7 @@ researchers and provides convenient access to major Vietnamese cities.
         <section className="grid md:grid-cols-2 gap-8">
           <div className="rounded-xl overflow-hidden border border-ctu-blue/20">
             <img
-              src="cantho-city.jpg"
+              src="bg2.jpeg"
               alt="Can Tho city view"
               width={800}
               height={500}
@@ -79,18 +79,19 @@ researchers and provides convenient access to major Vietnamese cities.
             Travel Information
           </h2>
 
+          <p className="text-lg text-gray-700">
+            The following information is provided for reference only.
+          </p>
+
           <ul className="list-disc ml-6 space-y-2 text-lg text-gray-800">
             <li>
-              <strong>Airport:</strong> Can Tho International Airport (VCA)
-            </li>
-            <li>
-              <strong>Alternative airports:</strong> Tan Son Nhat International Airport (SGN), Ho Chi Minh City
+              <strong>Airport:</strong> Can Tho International Airport
             </li>
             <li>
               <strong>Public Transport:</strong> Taxi and regional bus services
             </li>
             <li>
-              <strong>Visa:</strong> Participants should check Vietnam visa requirements
+              <strong>Visa:</strong> Participants are responsible for checking applicable Vietnam visa requirements.
             </li>
           </ul>
         </section>

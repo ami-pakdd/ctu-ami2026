@@ -85,26 +85,6 @@ export default function AboutPage() {
             and high scientific quality.
           </p>
         </section>
-
-        {/* Relation to PAKDD */}
-        {/* <section>
-          <h2 className="text-2xl font-bold text-ctu-blue mb-4">
-            Relation to PAKDD and AMI–PAKDD Workshop
-          </h2>
-          <p>
-            AMI 2026 is an independent international conference that shares strong
-            intellectual connections with the data mining and knowledge discovery community.
-            These connections are reflected in the AMI–PAKDD 2026 workshop,
-            which provides a focused forum for research at the intersection of
-            autonomous machine intelligence and knowledge discovery.
-          </p>
-          <p className="mt-4">
-            While AMI 2026 and PAKDD 2026 maintain distinct scopes, objectives,
-            and organizational structures, the workshop highlights the natural
-            overlap between the two research communities and fosters scientific
-            exchange across related areas.
-          </p>
-        </section> */}
       </div>
     </div>
   )
