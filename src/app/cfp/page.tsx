@@ -68,8 +68,19 @@ export default function CFPPage() {
           <h2 className="text-2xl font-bold text-ctu-blue mb-4">
             Important Dates
           </h2>
-          <ul className="space-y-2">
-            <li><strong>Paper submission deadline:</strong> June 1, 2026</li>
+          <ul className="space-y-3">
+            <li className="flex flex-wrap items-baseline gap-x-2">
+              <strong className="whitespace-nowrap">Paper submission deadline:</strong>
+              <span className="inline-flex flex-wrap items-center gap-x-2 gap-y-1 text-base">
+                <span className="line-through text-gray-400 whitespace-nowrap">June 1, 2026</span>
+                <span className="flex items-center gap-1.5 whitespace-nowrap">
+                  <span className="text-red-600 font-bold">July 1, 2026</span>
+                  <span className="bg-red-50 text-red-600 text-[10px] font-extrabold px-1.5 py-0.5 rounded border border-red-200 uppercase tracking-wide animate-pulse">
+                    Extended
+                  </span>
+                </span>
+              </span>
+            </li>
             <li><strong>Acceptance notification:</strong> August 15, 2026</li>
             <li><strong>Camera-ready papers due:</strong> October 15, 2026</li>
             <li><strong>Conference dates:</strong> October 29–31, 2026</li>

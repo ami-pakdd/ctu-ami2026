@@ -54,10 +54,10 @@ export default function Navigation() {
             <NavLink href="/">Home</NavLink>
             <NavLink href="/about">About</NavLink>
             <NavLink href="/cfp">Call for Papers</NavLink>
-            
+
             {/* Workshops Dropdown */}
             <div className="relative group">
-              <button 
+              <button
                 className={`
                   flex items-center gap-1 px-3 py-2 font-semibold transition-colors
                   ${pathname.startsWith('/workshops') ? 'text-ctu-cyan' : 'text-ctu-blue'}
@@ -66,12 +66,21 @@ export default function Navigation() {
               >
                 Workshops <ChevronDown size={16} />
               </button>
-              <div className="absolute left-0 top-full opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-200 flex-col bg-white border border-ctu-blue/10 shadow-lg rounded-md min-w-[240px] py-2 z-50">
-                <Link href="/workshops/workshop-1" className="block px-4 py-2 text-sm text-ctu-blue hover:bg-ctu-blue/5 hover:text-ctu-cyan transition-colors">
-                  Workshop 1: AI in Healthcare
+              <div className="absolute left-0 top-full opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-200 flex-col bg-white border border-ctu-blue/10 shadow-lg rounded-md min-w-[340px] py-2 z-50">
+                <Link href="/workshops/mfall-ami" className="block px-4 py-2 text-sm text-ctu-blue hover:bg-ctu-blue/5 hover:text-ctu-cyan transition-colors">
+                  Special Workshop: Multimodal, Federated, Agentic, and Lifelong Learning for Autonomous Machine Intelligence
                 </Link>
-                <Link href="/workshops/workshop-2" className="block px-4 py-2 text-sm text-ctu-blue hover:bg-ctu-blue/5 hover:text-ctu-cyan transition-colors">
-                  Workshop 2: Machine Learning
+                <Link href="/workshops/aai-26" className="block px-4 py-2 text-sm text-ctu-blue hover:bg-ctu-blue/5 hover:text-ctu-cyan transition-colors">
+                  Workshop: Advanced Artificial Intelligence Systems
+                </Link>
+                <Link href="/workshops/qai-sagin" className="block px-4 py-2 text-sm text-ctu-blue hover:bg-ctu-blue/5 hover:text-ctu-cyan transition-colors border-t border-gray-50 pt-2">
+                  Workshop: Quantum-Inspired Artificial Intelligence for Autonomous SAGINs and Non-Terrestrial Networks
+                </Link>
+                <Link href="/workshops/keis-2026" className="block px-4 py-2 text-sm text-ctu-blue hover:bg-ctu-blue/5 hover:text-ctu-cyan transition-colors">
+                  Workshop: Knowledge-Driven and Explainable Intelligent Systems (KEIS 2026)
+                </Link>
+                <Link href="/workshops/ai4sc" className="block px-4 py-2 text-sm text-ctu-blue hover:bg-ctu-blue/5 hover:text-ctu-cyan transition-colors">
+                  Special Session: AI for Smart Cities: Intelligent Systems for Future Cities
                 </Link>
               </div>
             </div>
@@ -98,31 +107,52 @@ export default function Navigation() {
               <NavLink href="/">Home</NavLink>
               <NavLink href="/about">About</NavLink>
               <NavLink href="/cfp">Call for Papers</NavLink>
-              
+
               {/* Mobile Workshops Dropdown */}
               <div className="flex flex-col">
-                <button 
+                <button
                   onClick={() => setMobileWorkshopsOpen(!mobileWorkshopsOpen)}
                   className="flex items-center justify-between px-3 py-2 font-semibold text-ctu-blue hover:text-ctu-cyan"
                 >
-                  Workshops 
+                  Workshops
                   <ChevronDown size={16} className={`transform transition-transform ${mobileWorkshopsOpen ? 'rotate-180' : ''}`} />
                 </button>
                 {mobileWorkshopsOpen && (
                   <div className="flex flex-col pl-4 pb-2 border-l-2 border-ctu-cyan/30 ml-4 mt-1 gap-2">
-                    <Link 
-                      href="/workshops/workshop-1" 
-                      onClick={() => setMobileMenuOpen(false)} 
+                    <Link
+                      href="/workshops/mfall-ami"
+                      onClick={() => setMobileMenuOpen(false)}
                       className="px-3 py-1 text-sm text-ctu-blue hover:text-ctu-cyan"
                     >
-                      Workshop 1: AI in Healthcare
+                      Special Workshop: Multimodal, Federated, Agentic, and Lifelong Learning for Autonomous Machine Intelligence
                     </Link>
-                    <Link 
-                      href="/workshops/workshop-2" 
-                      onClick={() => setMobileMenuOpen(false)} 
+                    <Link
+                      href="/workshops/aai-26"
+                      onClick={() => setMobileMenuOpen(false)}
                       className="px-3 py-1 text-sm text-ctu-blue hover:text-ctu-cyan"
                     >
-                      Workshop 2: Machine Learning
+                      Workshop: Advanced Artificial Intelligence Systems
+                    </Link>
+                    <Link
+                      href="/workshops/qai-sagin"
+                      onClick={() => setMobileMenuOpen(false)}
+                      className="px-3 py-1 text-sm text-ctu-blue hover:text-ctu-cyan border-t border-gray-100 pt-2"
+                    >
+                      Workshop: Quantum-Inspired Artificial Intelligence for Autonomous SAGINs and Non-Terrestrial Networks[cite: 1]
+                    </Link>
+                    <Link
+                      href="/workshops/keis-2026"
+                      onClick={() => setMobileMenuOpen(false)}
+                      className="px-3 py-1 text-sm text-ctu-blue hover:text-ctu-cyan"
+                    >
+                      Workshop: Knowledge-Driven and Explainable Intelligent Systems (KEIS 2026)[cite: 2]
+                    </Link>
+                    <Link
+                      href="/workshops/ai4sc"
+                      onClick={() => setMobileMenuOpen(false)}
+                      className="px-3 py-1 text-sm text-ctu-blue hover:text-ctu-cyan"
+                    >
+                      Special Session: AI for Smart Cities: Intelligent Systems for Future Cities[cite: 3]
                     </Link>
                   </div>
                 )}
