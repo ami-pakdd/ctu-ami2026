@@ -138,21 +138,21 @@ export default function Navigation() {
                       onClick={() => setMobileMenuOpen(false)}
                       className="px-3 py-1 text-sm text-ctu-blue hover:text-ctu-cyan border-t border-gray-100 pt-2"
                     >
-                      Workshop: Quantum-Inspired Artificial Intelligence for Autonomous SAGINs and Non-Terrestrial Networks[cite: 1]
+                      Workshop: Quantum-Inspired Artificial Intelligence for Autonomous SAGINs and Non-Terrestrial Networks
                     </Link>
                     <Link
                       href="/workshops/keis-2026"
                       onClick={() => setMobileMenuOpen(false)}
                       className="px-3 py-1 text-sm text-ctu-blue hover:text-ctu-cyan"
                     >
-                      Workshop: Knowledge-Driven and Explainable Intelligent Systems (KEIS 2026)[cite: 2]
+                      Workshop: Knowledge-Driven and Explainable Intelligent Systems (KEIS 2026)
                     </Link>
                     <Link
                       href="/workshops/ai4sc"
                       onClick={() => setMobileMenuOpen(false)}
                       className="px-3 py-1 text-sm text-ctu-blue hover:text-ctu-cyan"
                     >
-                      Special Session: AI for Smart Cities: Intelligent Systems for Future Cities[cite: 3]
+                      Special Session: AI for Smart Cities: Intelligent Systems for Future Cities
                     </Link>
                   </div>
                 )}

@@ -139,6 +139,14 @@ export default function WorkshopKEIS2026Page() {
                   <div className="font-semibold text-ctu-blue">Dr. Ngo Duc Luu</div>
                   <div className="text-sm text-gray-500">Bac Lieu University</div>
                 </li>
+                <li>
+                  <div className="font-semibold text-ctu-blue">Asst. Prof. Minh Nguyen</div>
+                  <div className="text-sm text-gray-500">Florida Atlantic University, USA</div>
+                </li>
+                <li>
+                  <div className="font-semibold text-ctu-blue">Asst. Prof. Deepti Gupta</div>
+                  <div className="text-sm text-gray-500">Texas A&M University, USA</div>
+                </li>
               </ul>
             </div>
 
