@@ -45,13 +45,13 @@ export default function CommitteePage() {
       country: "Vietnam",
     },
   ]
-  
-  const advisoryCommittee: Member[] = [
-    // {
-    //   name: "Prof. ZZZ",
-    //   affiliation: "Institute C",
-    //   country: "Country",
-    // },
+
+  const technicalProgramChair: Member[] = [
+    {
+      name: "Prof. Dinh Quoc Truong",
+      affiliation: "Can Tho University",
+      country: "Vietnam",
+    },
   ]
 
   return (
@@ -115,18 +115,14 @@ leading universities and research institutions in Vietnam and Europe.
           </ul>
         </section>
 
-        {/* Advisory Committee */}
+        {/* Technical Program Chair */}
         <section>
           <h2 className="text-2xl font-bold text-ctu-blue mb-8">
-            Advisory Committee
+            Technical Program Chair
           </h2>
 
-          <p className="text-gray-600 italic">
-            The Advisory Committee will be announced in due course.
-          </p>
-
-          {/* <ul className="space-y-6">
-            {advisoryCommittee.map((m, idx) => (
+          <ul className="space-y-6">
+            {technicalProgramChair.map((m, idx) => (
               <li key={idx}>
                 <p className="font-semibold text-lg text-gray-900">
                   {m.name}
@@ -136,20 +132,8 @@ leading universities and research institutions in Vietnam and Europe.
                 </p>
               </li>
             ))}
-          </ul> */}
+          </ul>
         </section>
-
-        {/* Program Committee */}
-        <section>
-          <h2 className="text-2xl font-bold text-ctu-blue mb-6">
-            Program Committee
-          </h2>
-
-          <p className="text-gray-600 italic">
-            The Program Committee will be announced soon.
-          </p>
-        </section>
-
       </div>
     </div>
   )

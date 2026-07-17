@@ -74,16 +74,16 @@ export default function CFPPage() {
               <span className="inline-flex flex-wrap items-center gap-x-2 gap-y-1 text-base">
                 <span className="line-through text-gray-400 whitespace-nowrap">June 1, 2026</span>
                 <span className="flex items-center gap-1.5 whitespace-nowrap">
-                  <span className="text-red-600 font-bold">July 1, 2026</span>
+                  <span className="text-red-600 font-bold">August 24, 2026</span>
                   <span className="bg-red-50 text-red-600 text-[10px] font-extrabold px-1.5 py-0.5 rounded border border-red-200 uppercase tracking-wide animate-pulse">
                     Extended
                   </span>
                 </span>
               </span>
             </li>
-            <li><strong>Acceptance notification:</strong> August 15, 2026</li>
-            <li><strong>Camera-ready papers due:</strong> October 15, 2026</li>
-            <li><strong>Conference dates:</strong> October 29–31, 2026</li>
+            <li><strong>Acceptance notification:</strong> September 24, 2026</li>
+            <li><strong>Camera-ready papers due:</strong> October 8, 2026</li>
+            <li><strong>Conference dates:</strong> December 17-19, 2026</li>
           </ul>
           <p className="mt-3 text-sm text-gray-600">
             All deadlines are firm and follow the Anywhere on Earth (AoE) convention.

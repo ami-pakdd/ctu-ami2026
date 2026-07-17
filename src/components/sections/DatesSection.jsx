@@ -4,15 +4,15 @@ export default function DatesSection() {
   const dates = [
     { 
       event: 'Paper Submission Deadline', 
-      date: 'July 1, 2026',
+      date: 'August 24, 2026',
       originalDate: 'June 1, 2026',
       isExtended: true 
     },
-    { event: 'Acceptance Notification', date: 'August 15, 2026' },
-    { event: 'Camera-Ready Papers Due', date: 'October 15, 2026' },
+    { event: 'Acceptance Notification', date: 'September 24, 2026' },
+    { event: 'Camera-Ready Papers Due', date: 'October 8, 2026' },
     {
       event: 'Conference Dates',
-      date: 'October 29–31, 2026',
+      date: 'December 17-19, 2026',
       highlight: true,
     },
   ]
@@ -79,11 +79,11 @@ export default function DatesSection() {
 
           {/* Countdown to submission deadline - Đã đổi Target sang 2026-07-01 */}
           <div className="mt-8">
-            <Countdown targetDate="2026-07-01T23:59:59Z" />
+            <Countdown targetDate="2026-08-24T23:59:59Z" />
             <div className="mt-2 text-sm text-ctu-blue/70 text-center flex flex-wrap items-center justify-center gap-x-1 gap-y-0.5">
               <span>Submission deadline:</span>
               <span className="line-through text-gray-400">June 1, 2026</span>
-              <span className="text-red-600 font-semibold">July 1, 2026</span>
+              <span className="text-red-600 font-semibold">August 24, 2026</span>
               <span>at 23:59 (Anywhere on Earth)</span>
             </div>
           </div>

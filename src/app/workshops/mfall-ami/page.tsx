@@ -95,7 +95,7 @@ export default function WorkshopMFALLPage() {
                       June 1, 2026
                     </span>                    
                     <div className="flex items-center gap-1.5 whitespace-nowrap">
-                      <span className="text-red-600 font-bold">July 1, 2026</span>
+                      <span className="text-red-600 font-bold">August 24, 2026</span>
                       <span className="bg-red-50 text-red-600 text-[10px] font-extrabold px-1.5 py-0.5 rounded border border-red-200 uppercase tracking-wide animate-pulse">
                         Extended
                       </span>
@@ -103,16 +103,16 @@ export default function WorkshopMFALLPage() {
                   </div>
                 </li>
                 <li className="flex flex-col">
-                  <span className="font-semibold text-ctu-blue">Acceptance Notification:</span>
-                  <span>August 15, 2026</span>
+                  <span className="font-semibold text-ctu-blue">Notification of acceptance:</span>
+                  <span>September 24, 2026</span>
                 </li>
                 <li className="flex flex-col">
-                  <span className="font-semibold text-ctu-blue">Camera-Ready Due:</span>
-                  <span>October 15, 2026</span>
+                  <span className="font-semibold text-ctu-blue">Camera-ready papers:</span>
+                  <span>October 8, 2026</span>
                 </li>
                 <li className="flex flex-col">
-                  <span className="font-semibold text-ctu-blue">Conference Dates:</span>
-                  <span>October 29-31, 2026</span>
+                  <span className="font-semibold text-ctu-blue">Conference date:</span>
+                  <span>December 17 - 19, 2026</span>
                 </li>
               </ul>
               <a href="https://cmt3.research.microsoft.com/AMI2026" target="_blank" rel="noreferrer" className="block">
