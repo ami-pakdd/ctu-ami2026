@@ -36,7 +36,7 @@ export default function Hero() {
 
           {/* Date & Location */}
           <div className="space-y-1 text-lg text-white/80 font-medium">
-            <p>October 29–31, 2026 • Can Tho City, Vietnam</p>
+            <p>December 17-19, 2026 • Can Tho City, Vietnam</p>
             <p>1st Edition · Inaugural Conference</p>
           </div>
 

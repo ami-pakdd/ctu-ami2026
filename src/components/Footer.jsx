@@ -16,7 +16,7 @@ export default function Footer() {
             </p>
 
             <p className="text-ctu-blue/70 text-sm mt-1">
-              October 29–31, 2026 • Can Tho City, Vietnam
+              December 17-19, 2026 • Can Tho City, Vietnam
             </p>
           </div>
 
