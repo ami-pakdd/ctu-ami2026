@@ -30,17 +30,17 @@ export default function CommitteePage() {
       country: "Vietnam",
     },
     {
-      name: "Prof. Fabrice Guillet",
+      name: "Prof. Fabrice Guillet, Ph.D. (HDR)",
       affiliation: "Nantes University",
       country: "France",
     },
     {
-      name: "Prof. Anh Hoang Pham",
+      name: "A/Prof. Anh Hoang Pham, Ph.D.",
       affiliation: "Vietnam National University – Ho Chi Minh City",
       country: "Vietnam",
     },
     {
-      name: "Prof. Ngan Thi Tran",
+      name: "A/Prof. Ngan Thi Tran, Ph.D.",
       affiliation: "Vietnam National University – Hanoi",
       country: "Vietnam",
     },
@@ -48,7 +48,7 @@ export default function CommitteePage() {
 
   const technicalProgramChair: Member[] = [
     {
-      name: "Prof. Dinh Quoc Truong",
+      name: "Dr. Dinh Quoc Truong",
       affiliation: "Can Tho University",
       country: "Vietnam",
     },
