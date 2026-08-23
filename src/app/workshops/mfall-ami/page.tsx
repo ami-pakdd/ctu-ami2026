@@ -95,7 +95,7 @@ export default function WorkshopMFALLPage() {
                       June 1, 2026
                     </span>                    
                     <div className="flex items-center gap-1.5 whitespace-nowrap">
-                      <span className="text-red-600 font-bold">August 24, 2026</span>
+                      <span className="text-red-600 font-bold">September 15, 2026</span>
                       <span className="bg-red-50 text-red-600 text-[10px] font-extrabold px-1.5 py-0.5 rounded border border-red-200 uppercase tracking-wide animate-pulse">
                         Extended
                       </span>
