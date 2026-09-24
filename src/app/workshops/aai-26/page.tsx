@@ -106,7 +106,7 @@ export default function WorkshopAAI26Page() {
                       June 1, 2026
                     </span>                    
                     <div className="flex items-center gap-1.5 whitespace-nowrap">
-                      <span className="text-red-600 font-bold">September 15, 2026</span>
+                      <span className="text-red-600 font-bold">September 30, 2026</span>
                       <span className="bg-red-50 text-red-600 text-[10px] font-extrabold px-1.5 py-0.5 rounded border border-red-200 uppercase tracking-wide animate-pulse">
                         Extended
                       </span>
@@ -115,7 +115,7 @@ export default function WorkshopAAI26Page() {
                 </li>
                 <li className="flex flex-col">
                   <span className="font-semibold text-ctu-blue">Notification of acceptance:</span>
-                  <span>September 24, 2026</span>
+                  <span>October 6, 2026</span>
                 </li>
                 <li className="flex flex-col">
                   <span className="font-semibold text-ctu-blue">Camera-ready papers:</span>
